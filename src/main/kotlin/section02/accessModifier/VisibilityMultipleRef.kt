@@ -4,7 +4,6 @@ class Counter(var start:Int){
     fun increment(){
         start += 1
     }
-
     override fun toString() = start.toString()
 }
 class CounterHolder(counter: Counter){
