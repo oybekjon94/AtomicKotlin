@@ -1,6 +1,14 @@
 package coroutine
 
-import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
+
+fun main(){
+    GlobalScope.launch {
+        println("Hello coroutine!")
+        delay(500)
+        println("Right back at ya!")
+    }
+    Thread.sleep(600)
+}

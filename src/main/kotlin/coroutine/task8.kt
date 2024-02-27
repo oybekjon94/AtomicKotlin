@@ -12,7 +12,7 @@ fun main(){
     GlobalScope.launch {
         delay(200)
         println("Ping")
-        job1.start()
+        job1.join()
         println("Ping")
         delay(200)
     }
