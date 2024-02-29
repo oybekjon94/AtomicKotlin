@@ -14,6 +14,7 @@ fun main(){
                 |-> He wasn't there again today
     |->Oh, how I wish he'd go away.
     """.trimMargin()
+    println(poem1)
     val poem2 = """
         |-> Last night I saw upon the stair
             |-> A little man who wasn't there

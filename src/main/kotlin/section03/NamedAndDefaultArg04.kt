@@ -8,6 +8,6 @@ fun main(){
     println(list2)
     val list3 = list.joinToString(prefix = "(", postfix = ")")
     println(list3)
-    val list4 = list.joinToString(separator = ":")
+    val list4 = list.joinToString(separator = "")
     println(list4)
 }

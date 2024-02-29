@@ -9,5 +9,5 @@ fun main(){
     println(level)
     val high = High
     println(high)
-    Empty
+    println(Empty)
 }
