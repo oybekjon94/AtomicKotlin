@@ -1,6 +1,5 @@
 package section05
 
-import sun.util.locale.provider.LocaleResources.trace
 
 interface Shape{
     fun draw():String
@@ -29,10 +28,10 @@ class Triangle:Shape{
 // Upcasting/Drawing.kt
 //package upcasting
 //import atomictest.*
-fun show(shape: Shape){
-    trace("Show: ${shape.draw()}")
-}
-fun main() {
-    listOf(Circle(), Square(), Triangle())
-        .forEach(::show)
-}
+//fun show(shape: Shape){
+//    trace("Show: ${shape.draw()}")
+//}
+//fun main() {
+//    listOf(Circle(), Square(), Triangle())
+//        .forEach(::show)
+//}
