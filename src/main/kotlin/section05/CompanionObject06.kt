@@ -3,7 +3,7 @@ package section05
 import kotlin.Exception
 
 
-class Exception(
+class Exception1(
     val value:Int
 ):Exception("wron value: $value")
 
