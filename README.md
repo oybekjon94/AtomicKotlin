@@ -12,7 +12,6 @@ If you want to experiment with the code examples from the book [Atomic Kotlin](h
 |           |Variable |
 |           |While |
 |           |ifExpressions |
-| -------- | -------- |
 | section02 | Maps |
 |           |Lists |
 |           |ClassBodies |
@@ -27,7 +26,6 @@ If you want to experiment with the code examples from the book [Atomic Kotlin](h
 |           |Sets |
 |           |This |
 |           |VarArg |
-| -------- | -------- |
 
 
 
